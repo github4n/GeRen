@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/8 验证码/captcha1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8 验证码/captcha2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8 验证码/code_tesserocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8 验证码/geestest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8 验证码/weibo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +27,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="weibo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8 验证码/weibo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#96#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +48,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>init</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,6 +66,8 @@
         <option value="$PROJECT_DIR$/8 验证码/ddd.py" />
         <option value="$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py" />
         <option value="$PROJECT_DIR$/8 验证码/geestest.py" />
+        <option value="$PROJECT_DIR$/8 验证码/CrackWeiBoSlide/crack.py" />
+        <option value="$PROJECT_DIR$/8 验证码/weibo.py" />
       </list>
     </option>
   </component>
@@ -192,6 +209,14 @@
       <option name="presentableId" value="Default" />
       <updated>1529542960847</updated>
     </task>
+    <task id="LOCAL-00001" summary="极验验证码">
+      <created>1529583660172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529583660172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -254,6 +279,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="极验验证码" />
+    <option name="LAST_COMMIT_MESSAGE" value="极验验证码" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/3.4 maoyan/result.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -285,17 +314,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3187">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 验证码/CrackWeiBoSlide/crack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 验证码/weibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#96#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
