@@ -14,8 +14,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from os import listdir
 
-USERNAME = '18840862253'
-PASSWORD = '1784210334'
+USERNAME = ''
+PASSWORD = ''
 
 TEMPLATES_FOLDER = 'templates/'
 
