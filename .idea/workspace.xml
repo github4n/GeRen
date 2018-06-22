@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/3 基本库/requests_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/PhantomJS_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/requests_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/selenium_proxy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3 基本库/request_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/3 基本库/urllib_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/chuyin.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/chuyin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/kennan.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/kennan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/py_mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/py_mongodb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/py_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/py_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/request_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/request_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/requests_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/requests_proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/tiebaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/tiebaSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/tieba_xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/tieba_xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_ajax.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_ajax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_cookielibtest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_cookielibtest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_urlopen.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_urlopen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib_cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib_opener.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib_opener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/xiaoqinxin.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/xiaoqinxin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/youdao.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/youdao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/zhihu_explore.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/zhihu_explore.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,23 +53,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urllib_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3 基本库/urllib_test.py">
+      <file leaf-file-name="selenium_proxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/selenium_proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="e#73#94#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requests_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3 基本库/requests_test.py">
+      <file leaf-file-name="PhantomJS_proxy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9 代理/PhantomJS_proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="228">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requests_proxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -86,6 +113,9 @@
         <option value="$PROJECT_DIR$/3 基本库/cookies_test.py" />
         <option value="$PROJECT_DIR$/3 基本库/requests_test.py" />
         <option value="$PROJECT_DIR$/3 基本库/test.py" />
+        <option value="$PROJECT_DIR$/9 代理/requests_proxy.py" />
+        <option value="$PROJECT_DIR$/9 代理/selenium_proxy.py" />
+        <option value="$PROJECT_DIR$/9 代理/PhantomJS_proxy.py" />
       </list>
     </option>
   </component>
@@ -118,7 +148,7 @@
             <path>
               <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="3 基本库" type="462c0819:PsiDirectoryNode" />
+              <item name="9 代理" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,7 +269,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
@@ -248,8 +277,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.24606061" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14520743" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.24606061" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14520743" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -389,13 +418,6 @@
     <entry file="file://$PROJECT_DIR$/config.py" />
     <entry file="file://$PROJECT_DIR$/taobao2.py" />
     <entry file="file://$PROJECT_DIR$/taobao.py" />
-    <entry file="file://$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/werkzeug/wrappers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -405,13 +427,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8 验证码/ddd.py" />
     <entry file="file://$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py" />
-    <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3187">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8 验证码/CrackWeiBoSlide/crack.py" />
     <entry file="file://$PROJECT_DIR$/8 验证码/weibo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,16 +438,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫基础 py2/request.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/request.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫基础 py2/tieba_xpath.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/tieba_xpath.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫基础 py2/tiebaSpider.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/tiebaSpider.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫基础 py2/urllib2_ajax.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/urllib2_ajax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -441,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫基础 py2/urllib2_cookielibtest1.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/urllib2_cookielibtest1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -450,7 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫基础 py2/requests_proxy.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/requests_proxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
@@ -520,16 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3 基本库/urllib_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#73#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -560,10 +565,61 @@
         <state relative-caret-position="-1581" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2434">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3 基本库/urllib_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#73#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3 基本库/requests_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="38">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/selenium_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/PhantomJS_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
