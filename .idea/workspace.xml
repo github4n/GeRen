@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/9 代理/PhantomJS_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9 代理/requests_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9 代理/selenium_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10 模拟登录/github_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/chuyin.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/chuyin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/kennan.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/kennan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/py_mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/py_mongodb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/py_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/py_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/request_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/request_post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/requests_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/requests_proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/tiebaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/tiebaSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/tieba_xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/tieba_xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_ajax.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_ajax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_cookielibtest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_cookielibtest1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib2_urlopen.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib2_urlopen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/urllib_opener.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/urllib_opener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/xiaoqinxin.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/xiaoqinxin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/youdao.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/youdao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫基础 py2/zhihu_explore.py" beforeDir="false" afterPath="$PROJECT_DIR$/2 爬虫基础 py2/zhihu_explore.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhantomJS_proxy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhantomJS_proxy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9 代理/PhantomJS_proxy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -71,11 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requests_proxy.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="github_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10 模拟登录/github_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requests_proxy.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -116,6 +106,7 @@
         <option value="$PROJECT_DIR$/9 代理/requests_proxy.py" />
         <option value="$PROJECT_DIR$/9 代理/selenium_proxy.py" />
         <option value="$PROJECT_DIR$/9 代理/PhantomJS_proxy.py" />
+        <option value="$PROJECT_DIR$/10 模拟登录/github_login.py" />
       </list>
     </option>
   </component>
@@ -148,7 +139,7 @@
             <path>
               <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="9 代理" type="462c0819:PsiDirectoryNode" />
+              <item name="10 模拟登录" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crack">
+  <component name="RunManager" selected="Python.github_login">
     <configuration name="crack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3 网络爬虫开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +182,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="github_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3 网络爬虫开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10 模拟登录" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10 模拟登录/github_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,9 +248,11 @@
       <item itemvalue="Python.taobao2" />
       <item itemvalue="Python.taobao" />
       <item itemvalue="Python.crack" />
+      <item itemvalue="Python.github_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.github_login" />
         <item itemvalue="Python.crack" />
         <item itemvalue="Python.taobao" />
       </list>
@@ -271,42 +283,27 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.24606061" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.24606061" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14520743" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24606061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16237482" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
-      <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.14520743" />
-      <window_info id="Favorites" order="2" sideWeight="0.50060606" side_tool="true" weight="0.14520743" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24606061" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,50 +365,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8 验证码/ddd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#73#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/8 验证码/ddd.py" />
+    <entry file="file://$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py" />
     <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3187">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8 验证码/CrackWeiBoSlide/crack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/8 验证码/CrackWeiBoSlide/crack.py" />
     <entry file="file://$PROJECT_DIR$/8 验证码/weibo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2388">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#96#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2562">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#96#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -448,22 +412,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/urllib2_ajax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/urllib2_cookielibtest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/requests_proxy.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#173#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,19 +471,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-118">
           <caret line="200" column="19" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
-          <folding>
-            <element signature="e#3337#3350#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3 基本库/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/3 基本库/test.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -569,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2434">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#73#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9 代理/selenium_proxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -613,13 +540,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/ghostdriver.log" />
     <entry file="file://$PROJECT_DIR$/9 代理/PhantomJS_proxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10 模拟登录/github_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
