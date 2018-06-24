@@ -41,7 +41,7 @@ class Login(object):
         dynamics = selector.xpath('//div[contains(@class, "news")]//div[contains(@class, "alert")]')
         for item in dynamics:
             dynamic = ' '.join(item.xpath('.//div[@class="title"]//text()')).strip()
-            print(dynamic)
+            print(item)
 
     def profile(self, html):
         selector = etree.HTML(html)
