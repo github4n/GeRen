@@ -5,6 +5,8 @@ __date__ = '2018/6/23 20:39'
 import redis
 from random import choice
 
+from error import PoolEmptyError
+
 MAX_SCORE = 100
 MIN_SCORE = 0
 INITIAL_SCORE = 10
