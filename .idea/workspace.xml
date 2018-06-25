@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="极验验证码">
-      <change afterPath="$PROJECT_DIR$/9 代理/abuyun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="极验验证码" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,53 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Weixin/weixin/spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Weixin/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Weixin/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Weixin/weixin/db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Weixin/weixin/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/9 代理/代理池/api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#73#98#0" expanded="true" />
               </folding>
@@ -142,7 +96,6 @@
         <option value="$PROJECT_DIR$/9 代理/代理池/getter.py" />
         <option value="$PROJECT_DIR$/9 代理/代理池/__init__.py" />
         <option value="$PROJECT_DIR$/9 代理/代理池/tester.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/api.py" />
         <option value="$PROJECT_DIR$/9 代理/代理池/setting.py" />
         <option value="$PROJECT_DIR$/9 代理/代理池/scheduler.py" />
         <option value="$PROJECT_DIR$/9 代理/ProxyPool/proxypool/error.py" />
@@ -151,6 +104,8 @@
         <option value="$PROJECT_DIR$/9 代理/abuyun.py" />
         <option value="$PROJECT_DIR$/Weixin/weixin/config.py" />
         <option value="$PROJECT_DIR$/Weixin/weixin/spider.py" />
+        <option value="$PROJECT_DIR$/Weixin/.gitignore" />
+        <option value="$PROJECT_DIR$/9 代理/代理池/api.py" />
       </list>
     </option>
   </component>
@@ -190,17 +145,6 @@
               <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="9 代理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Weixin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Weixin" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -700,16 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#73#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Weixin/weixin/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -747,7 +681,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Weixin/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/代理池/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#73#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
