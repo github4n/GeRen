@@ -20,7 +20,7 @@ def get_conn():
 def index():
     return '<h2> Welcome to Proxy Pool System</h2>'
 
-
+g
 @app.route('/random')
 def get_proxy():
     """
