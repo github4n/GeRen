@@ -29,8 +29,8 @@ MONGO_DB = 'moments'
 MONGO_COLLECTION = 'moments'
 
 # 账号与密码
-USER_NAME = 18840862253
-PASSWORD = '178421WZG'
+USER_NAME = 账号
+PASSWORD = 密码
 
 # 滑动点
 FLICK_START_X = 300
