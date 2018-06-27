@@ -81,9 +81,9 @@ class Moments():
         change_login_qq = self.wait.until(EC.element_to_be_clickable((By.ID,'com.tencent.mm:id/c1t')))
         change_login_qq.click()
         username = self.wait.until(EC.presence_of_element_located((By.XPATH,'//*[@resource-id="com.tencent.mm:id/hz"][1]')))
-        username.set_text(1784210334)
+        username.set_text(账号)
         password = self.wait.until(EC.presence_of_element_located((By.XPATH,'//*[@resource-id="com.tencent.mm:id/c1s"]//*[@resource-id="com.tencent.mm:id/hz"]')))
-        password.set_text('2855890162WAXLL')
+        password.set_text('密码')
 
         # 登录
         login_click = self.wait.until(EC.element_to_be_clickable((By.ID, 'com.tencent.mm:id/c1u')))
