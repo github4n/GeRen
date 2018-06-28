@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="极验验证码">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 App的爬取/dedao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 App的爬取/dedao_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 App的爬取/moments_weixin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 App的爬取/script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 App的爬取/weixin_login.text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/weixin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/weixin/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/weixin/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/weixin/mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/weixin/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9 代理/weixin/spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 代理/ProxyPool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 App的爬取/moments_weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 App的爬取/moments_weixin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +21,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python3_$cookies_test.coverage" NAME="cookies_test Coverage Results" MODIFIED="1529822951781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3 基本库" />
+    <SUITE FILE_PATH="coverage/Python3_$db.coverage" NAME="db Coverage Results" MODIFIED="1530104895503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/weixin" />
     <SUITE FILE_PATH="coverage/Python3_$taobao2.coverage" NAME="taobao2 Coverage Results" MODIFIED="1529822818013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python3_$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1529888750684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/代理池" />
+    <SUITE FILE_PATH="coverage/Python3_$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1530102835538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/代理池" />
     <SUITE FILE_PATH="coverage/Python3_$requests_proxy.coverage" NAME="requests_proxy Coverage Results" MODIFIED="1529822922175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理" />
     <SUITE FILE_PATH="coverage/Python3_$abuyun.coverage" NAME="abuyun Coverage Results" MODIFIED="1529892624896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理" />
-    <SUITE FILE_PATH="coverage/Python3_$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1529891608206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Weixin/weixin" />
+    <SUITE FILE_PATH="coverage/Python3_$run.coverage" NAME="run Coverage Results" MODIFIED="1530102842285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/Weixin" />
+    <SUITE FILE_PATH="coverage/Python3_$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1530105009670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/weixin" />
     <SUITE FILE_PATH="coverage/Python3_$spider.coverage" NAME="spider Coverage Results" MODIFIED="1529822913650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Python3_$weixin_login_text.coverage" NAME="weixin_login.text Coverage Results" MODIFIED="1530016505129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11 App的爬取" />
-    <SUITE FILE_PATH="coverage/Python3_$moments_weixin.coverage" NAME="moments_weixin Coverage Results" MODIFIED="1530016496592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11 App的爬取" />
+    <SUITE FILE_PATH="coverage/Python3_$moments_weixin.coverage" NAME="moments_weixin Coverage Results" MODIFIED="1530087578280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11 App的爬取" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -50,55 +53,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dedao_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11 App的爬取/dedao_test.py">
+      <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/weixin/request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="76">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11 App的爬取/script.py">
+      <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/weixin/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/weixin/mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/weixin/config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dedao.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11 App的爬取/dedao.py">
+      <file leaf-file-name="getter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9 代理/代理池/getter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#73#84#0" expanded="true" />
+                <element signature="e#73#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weixin_login.text.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11 App的爬取/weixin_login.text.py">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9 代理/weixin/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="456">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
-                <element signature="e#73#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moments_weixin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11 App的爬取/moments_weixin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="119" column="20" lean-forward="true" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
-              <folding>
-                <element signature="e#73#84#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +133,9 @@
       <find>init</find>
       <find>post</find>
       <find>datatime</find>
+      <find>date</find>
+      <find>data</find>
+      <find>weixin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,6 +184,13 @@
         <option value="$PROJECT_DIR$/11 App的爬取/weixin_app_login.py" />
         <option value="$PROJECT_DIR$/11 App的爬取/weixin_login.text.py" />
         <option value="$PROJECT_DIR$/11 App的爬取/moments_weixin.py" />
+        <option value="$PROJECT_DIR$/9 代理/Weixin/weixin/config.py" />
+        <option value="$PROJECT_DIR$/9 代理/Weixin/weixin/spider.py" />
+        <option value="$PROJECT_DIR$/9 代理/weixin/request.py" />
+        <option value="$PROJECT_DIR$/9 代理/weixin/mysql.py" />
+        <option value="$PROJECT_DIR$/9 代理/weixin/db.py" />
+        <option value="$PROJECT_DIR$/9 代理/weixin/spider.py" />
+        <option value="$PROJECT_DIR$/9 代理/weixin/config.py" />
       </list>
     </option>
   </component>
@@ -219,6 +244,12 @@
             <path>
               <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="9 代理" type="462c0819:PsiDirectoryNode" />
+              <item name="代理池" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="10 模拟登录" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,12 +262,6 @@
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="12 pyspider框架" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="12 pyspider框架" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,7 +269,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="get_proxy&#9;ACTION&#9;null&#10;PoolEmptyError&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="date&#9;ACTION&#9;Console.TableResult.Copy.ChooseExtractorGroup&#10;188&#9;null&#9;null&#10;get_proxy&#9;ACTION&#9;null&#10;PoolEmptyError&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -254,10 +279,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/9 代理/代理池" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/9 代理" />
+      <recent name="$PROJECT_DIR$/9 代理/12" />
       <recent name="$PROJECT_DIR$/9 代理/代理池" />
     </key>
   </component>
@@ -273,8 +300,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.weixin_login.text">
-    <configuration name="abuyun" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.spider (1)">
+    <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3 网络爬虫开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,12 +309,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9 代理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9 代理/weixin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9 代理/abuyun.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9 代理/weixin/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,6 +334,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11 App的爬取/moments_weixin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3 网络爬虫开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9 代理/Weixin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9 代理/Weixin/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,12 +385,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Weixin/weixin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9 代理/weixin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Weixin/weixin/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9 代理/weixin/spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,40 +415,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="weixin_login.text" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3 网络爬虫开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11 App的爬取" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11 App的爬取/weixin_login.text.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.spider" />
-      <item itemvalue="Python.scheduler" />
-      <item itemvalue="Python.abuyun" />
-      <item itemvalue="Python.spider (1)" />
       <item itemvalue="Python.moments_weixin" />
-      <item itemvalue="Python.weixin_login.text" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.scheduler" />
+      <item itemvalue="Python.spider (1)" />
+      <item itemvalue="Python.db" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.weixin_login.text" />
-        <item itemvalue="Python.moments_weixin" />
-        <item itemvalue="Python.abuyun" />
         <item itemvalue="Python.spider (1)" />
+        <item itemvalue="Python.db" />
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.scheduler" />
+        <item itemvalue="Python.moments_weixin" />
       </list>
     </recent_temporary>
   </component>
@@ -438,16 +465,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49454546" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39030302" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848486" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14592275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14806867" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32969698" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
@@ -463,30 +489,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14592275" />
-      <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.14377682" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8690909" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848486" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969698" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info id="Favorites" order="2" sideWeight="0.50060606" side_tool="true" weight="0.14377682" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -526,53 +528,19 @@
     <MESSAGE value="极验验证码" />
     <option name="LAST_COMMIT_MESSAGE" value="极验验证码" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyquery/openers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/690644531/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/ProxyPool/proxypool/scheduler.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="842" column="8" selection-start-line="842" selection-start-column="8" selection-end-line="842" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/setting.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/ProxyPool/proxypool/setting.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0b904e2b-9e8e-412d-ab55-60a296baa2a9/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/ProxyPool/proxypool/getter.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/ProxyPool/proxypool/db.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/ProxyPool/proxypool/error.py" />
     <entry file="file://$PROJECT_DIR$/9 代理/代理池/error.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -581,13 +549,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/9 代理/ProxyPool/proxypool/importer.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -610,13 +571,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Weixin/weixin/request.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Weixin/weixin/config.py" />
     <entry file="file://$PROJECT_DIR$/Weixin/weixin/db.py" />
     <entry file="file://$PROJECT_DIR$/Weixin/run.py" />
@@ -633,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
           <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -676,13 +623,6 @@
         <state relative-caret-position="-534" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11 App的爬取/dedao_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11 App的爬取/script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -696,32 +636,148 @@
     <entry file="file://$PROJECT_DIR$/8 验证码/images.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/11 App的爬取/dedao.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/notebook/static/components/codemirror/src/input/keynames.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding>
-            <element signature="e#73#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11 App的爬取/weixin_login.text.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/time.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="e#73#101#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="284">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="831" selection-start-line="831" selection-end-line="831" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 App的爬取/dedao_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/11 App的爬取/moments_weixin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="119" column="20" lean-forward="true" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+        <state relative-caret-position="-398">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 App的爬取/weixin_login.text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/Weixin/README.md" />
+    <entry file="file://$PROJECT_DIR$/11 App的爬取/dedao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/代理池/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/代理池/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/Weixin/run.py" />
+    <entry file="file://$PROJECT_DIR$/9 代理/weixin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="829" column="4" selection-start-line="829" selection-start-column="4" selection-end-line="829" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/代理池/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1372">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <element signature="e#73#84#0" expanded="true" />
+            <element signature="e#73#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="606" column="8" selection-start-line="606" selection-start-column="8" selection-end-line="606" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/weixin/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/weixin/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/weixin/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/weixin/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/weixin/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 代理/代理池/getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#73#99#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,7 @@ __date__ = '2018/6/24 16:30'
 
 from flask import Flask,g
 
-from db import RedisClient
+from .db import RedisClient
 
 __all__ = ['app']
 app = Flask(__name__)
@@ -20,7 +20,7 @@ def get_conn():
 def index():
     return '<h2> Welcome to Proxy Pool System</h2>'
 
-g
+
 @app.route('/random')
 def get_proxy():
     """

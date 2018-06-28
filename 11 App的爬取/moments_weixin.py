@@ -10,7 +10,6 @@ from appium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from appium.webdriver.common.touch_action import TouchAction
 from selenium.common.exceptions import NoSuchElementException
 
 
@@ -29,8 +28,8 @@ MONGO_DB = 'moments'
 MONGO_COLLECTION = 'moments'
 
 # 账号与密码
-USER_NAME = 账号
-PASSWORD = 密码
+USER_NAME = '账号'
+PASSWORD = '密码'
 
 # 滑动点
 FLICK_START_X = 300
@@ -81,11 +80,9 @@ class Moments():
         change_login_qq = self.wait.until(EC.element_to_be_clickable((By.ID,'com.tencent.mm:id/c1t')))
         change_login_qq.click()
         username = self.wait.until(EC.presence_of_element_located((By.XPATH,'//*[@resource-id="com.tencent.mm:id/hz"][1]')))
-        username.set_text(账号)
+        username.set_text(18840862253)
         password = self.wait.until(EC.presence_of_element_located((By.XPATH,'//*[@resource-id="com.tencent.mm:id/c1s"]//*[@resource-id="com.tencent.mm:id/hz"]')))
-        password.set_text('密码')
-
-        # 登录
+        password.set_text('QQ密码')
         login_click = self.wait.until(EC.element_to_be_clickable((By.ID, 'com.tencent.mm:id/c1u')))
         login_click.click()
 
@@ -95,26 +92,22 @@ class Moments():
 
     def enter(self):
         # 选项卡
-        print('enter')
-        driver = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME,'android.widget.RelativeLayout')))
-        TouchAction(driver).tap(x=654, y=1803).perform()
         # tab = self.wait.until(
         #     EC.presence_of_element_located((By.XPATH, '//*[@resource-id="com.tencent.mm:id/b0w"][3]')))
-        # tab.click()
-        print('end')
+        tab = self.wait.until(
+            EC.presence_of_element_located((By.XPATH, '//android.widget.FrameLayout[@content-desc="当前所在页面,与wxid_4ev1xtuus2do21的聊天"]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[3]')))
+        tab.click()
+
         # 朋友圈
         moments = self.wait.until(EC.presence_of_element_located((By.ID,'com.tencent.mm:id/a7f')))
         moments.click()
 
     def crawl(self):
         while True:
-
             # 当前页面显示的所有状态
-            items = self.wait.until(EC.presence_of_all_elements_located((By.XPATH,'//*[@resource-id="com.tencent.mm:id/dja"]//android.widget.Framelayout')))
-
+            items = self.wait.until(EC.presence_of_all_elements_located((By.XPATH,'//android.widget.FrameLayout[@content-desc="当前所在页面,朋友圈"]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView')))
             # 上滑
             self.driver.swipe(FLICK_START_X, FLICK_START_Y + FLICK_DISTANCE, FLICK_START_Y, FLICK_START_Y)
-
             # 遍历每条状态
             for item in items:
                 try:
@@ -125,19 +118,19 @@ class Moments():
                     content = item.find_element_by_id('com.tencent.mm:id/dkf').get_attribute('text')
 
                     # 日期
-                    date = item.find_element_by_id('com.tencent.mm:id/dfw').get_attribte('text')
+                    date = item.find_element_by_id('com.tencent.mm:id/dfw').get_attribute('text')
 
                     # 处理日期
                     date = self.date(date)
 
-                    data = {
+                    date = {
                         'nickname':nickname,
                         'content':content,
                         'date':date,
                     }
 
                     # 插入MongoDB
-                    self.collection.update({'nickname': nickname, 'content': content}, {'$set': data}, True)
+                    self.collection.update({'nickname': nickname, 'content': content}, {'$set': date}, True)
                     time.sleep(SCROLL_SLEEP_TIME)
                 except NoSuchElementException:
                     pass
@@ -148,23 +141,26 @@ class Moments():
         :param datetime: 原始时间
         :return: 处理后时间
         """
-
         # 分钟
         if re.match('\d+分钟前',datetime):
+            print('分钟')
             minute = re.match('(\d+)',datetime).group(1)
             datetime = time.strftime('%Y-%m-%d',time.localtime(time.time() - float(minute) * 60))
 
         # 小时
         if re.match('\d+小时前',datetime):
+            print('小时')
             hour = re.match('(\d+)',datetime).group(1)
             datetime = time.strftime('%Y-%m-%d',time.localtime(time.time() - float(hour) * 60 * 60))
 
         # 昨天
         if re.match('昨天',datetime):
+            print('昨天')
             datetime = time.strftime('%Y-%m-%d',time.localtime(time.time() - 24 * 60 * 60))
 
         # 几天前
         if re.match('\d分钟前',datetime):
+            print('几天前')
             day = re.match('(\d+)',datetime).group(1)
             datetime = time.strftime('%Y-%m-%d',time.localtime(time.time() - float(day) * 60))
 
@@ -172,10 +168,10 @@ class Moments():
 
     def main(self):
         self.login()
-        print('11')
+        # 等待页面加载
         time.sleep(10)
         self.enter()
-        print('1212')
+        print('开始crawl')
         self.crawl()
 
 
