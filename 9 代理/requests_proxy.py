@@ -3,7 +3,7 @@ __author__ = 'wang'
 __date__ = '2018/6/22 15:39'
 
 import requests
-proxy = '222.185.137.101:6666'
+proxy = '77.79.149.199:53281'
 
 proxies = {
     'http':'http://' + proxy,

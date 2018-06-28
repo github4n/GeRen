@@ -4,7 +4,7 @@ __date__ = '2018/6/24 16:30'
 
 from flask import Flask,g
 
-from .db import RedisClient
+from db import RedisClient
 
 __all__ = ['app']
 app = Flask(__name__)

@@ -2,7 +2,7 @@
 __author__ = 'wang'
 __date__ = '2018/6/23 21:50'
 
-from .db import RedisClient
+from db import RedisClient
 from crawler import Crawler
 
 POOL_UPPER_THRESHOLD = 100000
