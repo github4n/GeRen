@@ -73,13 +73,16 @@ def save_to_mongo(result):
         print('存储至MongoDB失败')
 
 
-MAX_PAGE = 100
+MAX_PAGE = 10
+
+
 def main():
     """
     遍历每一页
     """
     for i in range(1, MAX_PAGE + 1):
         index_page(i)
+
 
 if __name__ == '__main__':
     main()

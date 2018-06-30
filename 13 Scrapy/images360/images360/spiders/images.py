@@ -9,7 +9,7 @@ from images360.items import ImagesItem
 class ImagesSpider(scrapy.Spider):
     name = 'images'
     allowed_domains = ['images.so.com']
-    start_urls = ['http://images.so.com/']
+    start_urls = ['http://image.so.com/']
 
     def parse(self, response):
         result = json.loads(response.text)
@@ -29,3 +29,5 @@ class ImagesSpider(scrapy.Spider):
             params = urlencode(data)
             url = base_url + params
             yield Request(url, self.parse)
+
+

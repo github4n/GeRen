@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="极验验证码">
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10 模拟登录/github_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 模拟登录/github_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py" beforeDir="false" afterPath="$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +29,7 @@
     <SUITE FILE_PATH="coverage/Python3_$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1530153659418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/代理池" />
     <SUITE FILE_PATH="coverage/Python3_$spider.coverage" NAME="spider Coverage Results" MODIFIED="1529822913650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Python3_$taobao2.coverage" NAME="taobao2 Coverage Results" MODIFIED="1529822818013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python3_$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1530277061961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7 动态渲染页面爬取" />
     <SUITE FILE_PATH="coverage/Python3_$abuyun.coverage" NAME="abuyun Coverage Results" MODIFIED="1529892624896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理" />
     <SUITE FILE_PATH="coverage/Python3_$run.coverage" NAME="run Coverage Results" MODIFIED="1530102842285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/Weixin" />
     <SUITE FILE_PATH="coverage/Python3_$requests_proxy.coverage" NAME="requests_proxy Coverage Results" MODIFIED="1530153928837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理" />
@@ -48,46 +58,38 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="github_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10 模拟登录/github_login.py">
+    <leaf>
+      <file leaf-file-name="china.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+            <state relative-caret-position="509">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#24#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9 代理/代理池/scheduler.py">
+      <file leaf-file-name="loaders.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
               <folding>
-                <element signature="e#219#254#0" expanded="true" />
+                <element signature="e#73#109#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weibo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8 验证码/weibo.py">
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#73#82#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geestest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -95,6 +97,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Setup Script" />
         <option value="Python Script" />
       </list>
     </option>
@@ -108,7 +111,15 @@
       <find>data</find>
       <find>weixin</find>
       <find>accounts</find>
+      <find>OB</find>
+      <find>ITEM</find>
+      <find />
+      <find>ROOT</find>
+      <find>loader.add_xpath</find>
     </findStrings>
+    <replaceStrings>
+      <replace>item['title']</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,31 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/8 验证码/CrackGeetest/crack.py" />
-        <option value="$PROJECT_DIR$/8 验证码/geestest.py" />
-        <option value="$PROJECT_DIR$/8 验证码/CrackWeiBoSlide/crack.py" />
-        <option value="$PROJECT_DIR$/8 验证码/weibo.py" />
-        <option value="$PROJECT_DIR$/3 基本库/request_test.py" />
-        <option value="$PROJECT_DIR$/3 基本库/cookies_test.py" />
-        <option value="$PROJECT_DIR$/3 基本库/requests_test.py" />
-        <option value="$PROJECT_DIR$/3 基本库/test.py" />
-        <option value="$PROJECT_DIR$/9 代理/selenium_proxy.py" />
-        <option value="$PROJECT_DIR$/9 代理/PhantomJS_proxy.py" />
-        <option value="$PROJECT_DIR$/10 模拟登录/dd.py" />
-        <option value="$PROJECT_DIR$/9 代理/proxy-pool.py" />
-        <option value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyquery/pyquery.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/utils.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/crawler.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/__init__.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/tester.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/setting.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/scheduler.py" />
-        <option value="$PROJECT_DIR$/9 代理/ProxyPool/proxypool/error.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/error.py" />
-        <option value="$PROJECT_DIR$/9 代理/代理池/db.py" />
-        <option value="$PROJECT_DIR$/9 代理/abuyun.py" />
-        <option value="$PROJECT_DIR$/Weixin/weixin/config.py" />
-        <option value="$PROJECT_DIR$/Weixin/weixin/spider.py" />
         <option value="$PROJECT_DIR$/Weixin/.gitignore" />
         <option value="$PROJECT_DIR$/11 App的爬取/script.py" />
         <option value="$PROJECT_DIR$/11 App的爬取/dedao_test.py" />
@@ -162,11 +148,36 @@
         <option value="$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/scheduler.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/Scrapy_first.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/items.py" />
-        <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/spiders/quotes.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/settings.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/middlewares.py" />
-        <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py" />
         <option value="$PROJECT_DIR$/10 模拟登录/github_login.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/spiders/quotes.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/settings.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/middlewares.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/spiders/httpbin.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/images360/images360/items.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/images360/images360/pipelines.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/images360/images360/settings.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/images.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/meixi/meixi/spiders/images.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/meixi/meixi/items.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/meixi/meixi/pipelines.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/meixi/meixi/settings.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/settings.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/pipelines.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/items.py" />
+        <option value="$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/pipelines.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/middlewares.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/settings.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/spiders/taobao.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/items.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/settings.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py" />
       </list>
     </option>
   </component>
@@ -189,7 +200,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Python3 网络爬虫开发实战" type="cbb8eebc:String" user="Python3 网络爬虫开发实战" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Python3 网络爬虫开发实战" type="cbb8eebc:String" user="Python3 网络爬虫开发实战" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Python3 网络爬虫开发实战" type="cbb8eebc:String" user="Python3 网络爬虫开发实战" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Python3 网络爬虫开发实战" type="cbb8eebc:String" user="Python3 网络爬虫开发实战" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Python3 网络爬虫开发实战" type="cbb8eebc:String" user="Python3 网络爬虫开发实战" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,28 +249,28 @@
             <path>
               <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="8 验证码" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="9 代理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="10 模拟登录" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="13 Scrapy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="13 Scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="13 Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="13 Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="date&#9;ACTION&#9;Console.TableResult.Copy.ChooseExtractorGroup&#10;188&#9;null&#9;null&#10;get_proxy&#9;ACTION&#9;null&#10;PoolEmptyError&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="UserAgentMidd&#9;null&#9;null&#10;signals&#9;null&#9;null&#10;signal&#9;null&#9;null&#10;date&#9;ACTION&#9;Console.TableResult.Copy.ChooseExtractorGroup&#10;188&#9;null&#9;null&#10;get_proxy&#9;ACTION&#9;null&#10;PoolEmptyError&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -260,6 +309,32 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3 网络爬虫开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7 动态渲染页面爬取" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.taobao" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -293,16 +368,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46424243" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848486" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14806867" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.73939395" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8169697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.15450644" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32969698" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
@@ -320,24 +394,24 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.14806867" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969698" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.1502146" />
       <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.14377682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46424243" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.73939395" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848486" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8169697" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info id="Favorites" order="2" sideWeight="0.50060606" side_tool="true" weight="0.14377682" />
@@ -390,328 +464,21 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/9 代理/Weixin/run.py" />
-    <entry file="file://$PROJECT_DIR$/9 代理/weixin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="829" column="4" selection-start-line="829" selection-start-column="4" selection-end-line="829" selection-end-column="4" />
+        <state relative-caret-position="634">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="606" column="8" selection-start-line="606" selection-start-column="8" selection-end-line="606" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11 App的爬取/moments_weixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="e#73#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11 App的爬取/weixin_login.text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#73#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/login/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/login/weibo/cookies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3405">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/importer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-293" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/weixin/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/error.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/weixin/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/weixin/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/weixin/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/crawler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#73#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/requests_proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/weixin/mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="842" column="8" selection-start-line="842" selection-start-column="8" selection-end-line="842" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/Scrapy_first.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/importer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/CookiesPool/cookiespool/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTutorial/tutorial/quotes.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/spiders/quotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTutorial/tutorial/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTutorial/tutorial/spiders/quotes.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTutorial/tutorial/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTutorial/tutorial/items.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTutorial/tutorial/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="16" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#194#208#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-61">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -724,43 +491,293 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="759">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10 模拟登录/github_login.py">
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9 代理/代理池/scheduler.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3/six/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding>
-            <element signature="e#219#254#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-778" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8 验证码/weibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 验证码/geestest.py">
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/images/t01a42d980a2a689310.jpg" />
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/items.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/spiders/httpbin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/spiders/quotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/spiders/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/signals.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="664" column="8" selection-start-line="664" selection-start-column="8" selection-end-line="664" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapySeleniumTest/scrapyseleniumtest/settings.py" />
+    <entry file="file://$PROJECT_DIR$/ScrapySeleniumTest/scrapyseleniumtest/spiders/taobao.py" />
+    <entry file="file://$PROJECT_DIR$/ScrapySeleniumTest/scrapyseleniumtest/middlewares.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/response/xml.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/response/html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/response/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/response/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/ghostdriver.log" />
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="91" selection-start-line="91" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/spiders/taobao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1733">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#84#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spiders/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#195#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3328">
+          <caret line="277" column="8" selection-start-line="277" selection-start-column="8" selection-end-line="277" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#73#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
