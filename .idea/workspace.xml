@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57a6b34-fbab-4f69-bba0-5a9b045f9ac1" name="Default" comment="极验验证码">
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3 网络爬虫开发实战.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/configs/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/rules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/universal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py" beforeDir="false" afterPath="$PROJECT_DIR$/7 动态渲染页面爬取/taobao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/univeral.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +27,8 @@
     <SUITE FILE_PATH="coverage/Python3_$taobao2.coverage" NAME="taobao2 Coverage Results" MODIFIED="1529822818013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python3_$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1530277061961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7 动态渲染页面爬取" />
     <SUITE FILE_PATH="coverage/Python3_$abuyun.coverage" NAME="abuyun Coverage Results" MODIFIED="1529892624896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理" />
-    <SUITE FILE_PATH="coverage/Python3_$run.coverage" NAME="run Coverage Results" MODIFIED="1530102842285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/Weixin" />
     <SUITE FILE_PATH="coverage/Python3_$requests_proxy.coverage" NAME="requests_proxy Coverage Results" MODIFIED="1530153928837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理" />
+    <SUITE FILE_PATH="coverage/Python3_$run.coverage" NAME="run Coverage Results" MODIFIED="1530531285227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13 Scrapy/scrapyuniversal" />
     <SUITE FILE_PATH="coverage/Python3_$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1530153545559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9 代理/weixin" />
     <SUITE FILE_PATH="coverage/Python3_$importer.coverage" NAME="importer Coverage Results" MODIFIED="1530151612899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10 模拟登录/CookiesPool" />
     <SUITE FILE_PATH="coverage/Python3_$weixin_login_text.coverage" NAME="weixin_login.text Coverage Results" MODIFIED="1530016505129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11 App的爬取" />
@@ -58,12 +54,63 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="china.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="universal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/universal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="152">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="china.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/configs/china.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="china.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/configs/china.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-end-line="16" />
+              <folding>
+                <element signature="n#!!block;n#start_urls#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="e#73#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="universal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/spiders/universal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="e#24#71#0" expanded="true" />
               </folding>
@@ -74,20 +121,29 @@
       <file leaf-file-name="loaders.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="e#73#109#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py">
+      <file leaf-file-name="rules.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/rules.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="76">
+              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding>
+                <element signature="e#73#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,15 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Weixin/.gitignore" />
-        <option value="$PROJECT_DIR$/11 App的爬取/script.py" />
-        <option value="$PROJECT_DIR$/11 App的爬取/dedao_test.py" />
-        <option value="$PROJECT_DIR$/11 App的爬取/dedao.py" />
-        <option value="$PROJECT_DIR$/11 App的爬取/weixin_app_login.py" />
-        <option value="$PROJECT_DIR$/11 App的爬取/weixin_login.text.py" />
-        <option value="$PROJECT_DIR$/11 App的爬取/moments_weixin.py" />
-        <option value="$PROJECT_DIR$/9 代理/Weixin/weixin/config.py" />
-        <option value="$PROJECT_DIR$/9 代理/Weixin/weixin/spider.py" />
         <option value="$PROJECT_DIR$/9 代理/weixin/request.py" />
         <option value="$PROJECT_DIR$/9 代理/weixin/mysql.py" />
         <option value="$PROJECT_DIR$/9 代理/weixin/db.py" />
@@ -175,9 +222,18 @@
         <option value="$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/spiders/taobao.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/scrapysplashtest/scrapysplashtest/items.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/settings.py" />
-        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/rules.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/univeral.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/configs/rules.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/utils.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/run.py" />
+        <option value="$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/items.py" />
         <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/urls.py" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/configs/china.json" />
+        <option value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/universal.py" />
       </list>
     </option>
   </component>
@@ -270,6 +326,39 @@
               <item name="13 Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
               <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="13 Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyUniversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyUniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyUniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3 网络爬虫开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3 网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyUniversal" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyuniversal" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -279,7 +368,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="UserAgentMidd&#9;null&#9;null&#10;signals&#9;null&#9;null&#10;signal&#9;null&#9;null&#10;date&#9;ACTION&#9;Console.TableResult.Copy.ChooseExtractorGroup&#10;188&#9;null&#9;null&#10;get_proxy&#9;ACTION&#9;null&#10;PoolEmptyError&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="rule&#9;null&#9;null&#10;UserAgentMidd&#9;null&#9;null&#10;signals&#9;null&#9;null&#10;signal&#9;null&#9;null&#10;date&#9;ACTION&#9;Console.TableResult.Copy.ChooseExtractorGroup&#10;188&#9;null&#9;null&#10;get_proxy&#9;ACTION&#9;null&#10;PoolEmptyError&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -289,12 +378,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/9 代理/代理池" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal" />
+      <recent name="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders" />
       <recent name="$PROJECT_DIR$/9 代理" />
       <recent name="$PROJECT_DIR$/9 代理/12" />
+      <recent name="$PROJECT_DIR$/9 代理/代理池" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/9 代理/代理池" />
     </key>
   </component>
@@ -310,7 +401,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3 网络爬虫开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13 Scrapy/scrapyuniversal/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3 网络爬虫开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,8 +440,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.taobao" />
+      <item itemvalue="Python.run" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.taobao" />
       </list>
     </recent_temporary>
@@ -368,6 +483,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
@@ -376,7 +492,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.73939395" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.8169697" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.15450644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.15808298" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32969698" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
@@ -394,14 +510,15 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.15879828" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32969698" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.1502146" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.14377682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.73939395" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969698" />
@@ -409,9 +526,8 @@
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.8169697" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info id="Favorites" order="2" sideWeight="0.50060606" side_tool="true" weight="0.14377682" />
@@ -468,139 +584,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3/six/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-778" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/images/t01a42d980a2a689310.jpg" />
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/items.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapydownloadertest/scrapydownloadertest/spiders/httpbin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/tutorial/tutorial/spiders/quotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/spiders/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/images360/images360/spiders/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/request/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/signals.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="664" column="8" selection-start-line="664" selection-start-column="8" selection-end-line="664" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapySeleniumTest/scrapyseleniumtest/settings.py" />
     <entry file="file://$PROJECT_DIR$/ScrapySeleniumTest/scrapyseleniumtest/spiders/taobao.py" />
     <entry file="file://$PROJECT_DIR$/ScrapySeleniumTest/scrapyseleniumtest/middlewares.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/http/response/xml.py">
@@ -698,26 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1733">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#84#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spiders/crawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#195#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13 Scrapy/meixi/meixi/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -727,13 +690,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,30 +708,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py">
+    <entry file="file://$PROJECT_DIR$/2 爬虫基础 py2/chuyin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="133">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py">
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/rules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/rules.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/utils/trackref.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3/six/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spiders/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="e#195#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/notebook/static/components/codemirror/mode/fcl/fcl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/loaders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/loader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2835">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="e#73#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/china.py">
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/rules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="76">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/loaders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/spiders/china.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#24#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/configs/china.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!block;n#start_urls#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyUniversal/scrapyuniversal/spiders/universal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#73#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/configs/china.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13 Scrapy/scrapyuniversal/scrapyuniversal/spiders/universal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
