@@ -13,3 +13,4 @@ headers={ "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
 request = urllib2.Request(url,headers=headers)
 
 print urllib2.urlopen(request).read().decode('utf-8')
+

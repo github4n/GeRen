@@ -1,0 +1,4 @@
+http://image.baidu.com/search/index?tn=baiduimage&ie=gb18030&word=%bf%c2%c4%cf
+
+Json_url :http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&queryWord=%E6%9F%AF%E5%8D%97&word=%E6%9F%AF%E5%8D%97&pn=120
+
