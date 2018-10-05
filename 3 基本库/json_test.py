@@ -38,9 +38,8 @@ try:
             "votes":votes,
             "comments":comments
         }
-        with open('qiushi.json','a') as f:
-            f.write(json.dumps(item,ensure_ascii=False).encode('utf-8'))
-    print(item)
+        with open('qiushi.json','a',encoding='utf-8') as f:
+            f.write(json.dumps(item,ensure_ascii=False) )
 
 except Exception as e:
     print (e)
